@@ -36,3 +36,52 @@ Ejecutar en **Anaconda Prompt**:
 ```bash
 conda create -n huggingface python=3.10
 conda activate huggingface
+
+2. Instalar dependencias
+
+Desde el entorno activado:
+
+pip install -r requirements.txt
+
+3. Ejecutar cada script por separado
+
+Dentro de la carpeta del proyecto:
+
+python src/especie_animal.py
+python src/descripcion_imagen.py
+python src/texto_detectado.py
+python src/colores_dominantes.py
+
+
+Cada script generará un archivo JSON en:
+
+assets/resultados/
+
+
+Los archivos generados son:
+
+resultado_especie.json
+
+resultado_descripcion.json
+
+resultado_texto.json
+
+resultado_colores.json
+
+📦 Dependencias y versiones recomendadas
+
+Este proyecto fue probado con las siguientes librerías:
+
+Librería	Versión recomendada
+Python	3.10
+transformers	4.x
+torch	2.x (CPU)
+torchvision	0.x
+torchaudio	0.x
+pillow	10.x
+numpy	1.26
+regex	2023.x
+
+Archivo de instalación automática:
+
+requirements.txt
