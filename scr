@@ -1,0 +1,5 @@
+src/
+    especie_animal.py
+    descripcion_imagen.py
+    texto_detectado.py
+    colores_dominantes.py
